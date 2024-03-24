@@ -98,4 +98,5 @@ int main()
     t1 = NULL;
     t2 = NULL;
 
+    return 0;
 }

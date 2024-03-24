@@ -99,13 +99,14 @@ int main()
     a.acceptAddress();
     a.displayAddress();
     a.setBuilding("201,Aayushman");
-    a.getBuilding();
+    cout<<a.getBuilding()<<endl;
     a.setStreet("Gndhi nagar road");
-    a.getStreet();
+    cout<<a.getStreet()<<endl;
     a.setCity("Chandrapur");
-    a.getCity();
+    cout<<a.getCity()<<endl;
     a.setPin(442404);
-    a.getPin();
+    cout<<a.getPin()<<endl;
     a.displayAddress();
 
+    return 0;
 }

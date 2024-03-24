@@ -87,12 +87,14 @@ int main()
     Cylinder a(9);
     a.printVolume();
 
-    a.getRadius();
+    cout<<a.getRadius()<<endl;
     a.setRadius(7);
 
-    a.getHeight();
+    cout<<a.getHeight()<<endl;
     a.setHeight(10);
 
-    a.getVolume();
+    cout<<a.getVolume()<<endl;
     a.printVolume();
+
+    return 0;
 }
